@@ -1,0 +1,79 @@
+* {
+  background-color: palevioletred;
+}
+h3 {
+  text-align: center;
+  background-color: aquamarine;
+  border: 2px dashed brown;
+  border-radius: 15px;
+}
+label {
+  color: blueviolet;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+#fname,
+#lname {
+  background-color: aqua;
+  color: red;
+}
+#gender {
+  background-color: aqua;
+  color: red;
+}
+#X {
+  color: rgb(0, 255, 255);
+  background-color: brown;
+}
+#XII {
+  color: rgb(0, 255, 255);
+  background-color: brown;
+}
+#class {
+  color: blueviolet;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+.subj {
+  color: rgb(0, 255, 255);
+  background-color: brown;
+}
+#classic {
+  color: blueviolet;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+#ema {
+  background-color: aqua;
+  color: red;
+}
+#hello {
+  height: 780px;
+  border: 3px dashed brown;
+  text-align: center;
+}
+#pha {
+  background-color: aqua;
+  color: red;
+}
+#final {
+  padding-top: 30px;
+}
+#uurl {
+  background-color: aqua;
+  color: red;
+}
+.submit {
+  background-color: cadetblue;
+}
+#vd {
+  height: 20px;
+  width: 20px;
+
+}
+#cb {
+  margin-top: 80px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: cyan;
+}

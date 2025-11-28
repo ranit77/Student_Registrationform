@@ -1,0 +1,15 @@
+* {
+  background-color: firebrick;
+}
+
+h3 {
+  background-color: aquamarine;
+  border: 2px dashed black;
+  border-radius: 15px;
+  text-align: center;
+}
+div {
+  align-content: center;
+  padding-top: 200px;
+  min-height: max-content;
+}

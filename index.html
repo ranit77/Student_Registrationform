@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <div id="hello">
+      <h3>Student Application form</h3>
+      <form action="pagepage.html">
+        <label for="fname">Enter first name:</label>
+        <input type="text" id="fname" placeholder="First name" required />
+        <br />
+        <br />
+        <label for="lname">Enter your last name:</label>
+        <input type="text" id="lname" placeholder="Last name" required />
+        <br />
+        <br />
+        <label id="name">Please select Gender: </label>
+        <select id="gender">
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+          <option>Prefer not to say</option>
+        </select>
+        <br />
+        <br />
+        <label id="class">Please enter class: </label>
+        <input type="radio" id="classX" name="class" />
+        <label for="classX" id="X">Class X</label>
+
+        <input type="radio" id="classXII" name="class" />
+        <label for="classXII" id="XII">Class XII</label>
+        <br />
+        <br />
+        <label id="classic">Please enter your subject combination: </label>
+
+        <br />
+        <br />
+
+        <input type="checkbox" id="Physics" name="subject" />
+        <label for="Physics" id="Phy" class="subj">Physics</label>
+
+        <input type="checkbox" id="Chemistry" name="subject" />
+        <label for="Chemistry" id="Chem" class="subj">Chemistry</label>
+
+        <input type="checkbox" id="Maths" name="subject" />
+        <label for="Maths" id="Math" class="subj">Maths</label>
+
+        <br />
+        <br />
+
+        <input type="checkbox" id="Biology" name="subject" />
+        <label for="Biology" id="Bio" class="subj">Biology</label>
+
+        <input type="checkbox" id="2ndLanguage" name="subject" />
+        <label for="2ndLanguage" id="Lang" class="subj">2nd Language</label>
+
+        <input type="checkbox" id="Computer" name="subject" />
+        <label for="Computer" id="Comp" class="subj">Computer</label>
+        <br />
+        <br />
+        <label id="em"> Enter your email address</label>
+        <input type="email" id="ema" placeholder="Email id" required />
+        <br />
+        <br />
+        <label id="ph"> Enter your phone number</label>
+        <input type="tel" id="pha" placeholder="Phone Number" />
+        <br />
+        <br />
+        <label id="bd"> Enter your Date of Birth: </label>
+        <input type="date" id="bd" placeholder="Date of Birth" />
+        <br />
+        <br />
+        <label for="uurl">Enter social media URL(if any)</label>
+        <input type="url" id="uurl" placeholder="Enter URL" />
+        <br />
+        <br />
+        <label id="attach"> Kindly add attachments below(if any)</label>
+        <input type="file" id="pha" placeholder="Attach files here" />
+        <br />
+        <br />
+        <div id="final">
+          <input type="checkbox" id="verify" required />
+          <label for="verify" id="ver">
+            I hereby confirm that the information provided above is accurate and
+            complete to the best of my knowledge.</label
+          >
+          <br />
+          <br />
+          <input type="submit" class="submit" value="Click Submit" />
+          <input type="reset" class="submit" value="Click to Reset" />
+          <div id="zz">
+            <h2 id="cb">Contact us below</h2>
+          </div>
+          <video
+            id="vd"
+            src="Linkedin.mp4"
+            autoplay
+            style="position: absolute; margin-left: -20px; margin-top: -15px"
+          ></video>
+          <a
+            href="https://www.Linkedin.com"
+            style="position: absolute; margin-left: 5px; margin-top: -15px"
+          >
+            Linkedin</a
+          >
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
